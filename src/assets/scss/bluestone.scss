@@ -1,0 +1,36 @@
+.first{
+    h1{
+        font-family: $font;
+        font-weight: bold;
+        // font-size: 72px;
+        background: -webkit-linear-gradient(#0856A2,#3C108A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .border1{
+        border: 1px solid;
+        width: 80px;
+        color: #0856A2;
+    }
+
+}
+.design{
+   h2{
+    font-family: $font;
+    font-weight: bold;
+   }
+}
+
+.second{
+    button{
+        font-family: $font;
+        border: none;
+        background: transparent;
+        div{
+            color: #0856A2;
+        }
+        i{
+            color: #0856A2;
+        }
+    }
+}

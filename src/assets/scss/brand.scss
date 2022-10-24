@@ -1,0 +1,32 @@
+section{
+    background-color: $color3;
+    .container{
+        img{
+            width: 6rem;
+        }
+    }
+}
+
+.first{
+    .img1{
+    width: 35px;
+    padding-top: 0.5rem;
+    }
+    .img2{
+        width: 70px;
+    }
+}
+
+.sliding{
+    h2{
+        font-size: 1.5rem;
+    }
+    .name{
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    img{
+        padding-top: 1rem;
+        width: 60px !important;
+    }
+}

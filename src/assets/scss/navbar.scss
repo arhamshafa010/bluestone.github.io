@@ -1,0 +1,30 @@
+section{
+    font-family: $font;
+    font-weight: 100;
+    .nav-link{
+        color: black !important;
+    }
+    .btn1{
+        background-color: $btncolor;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 120px;
+        border-radius: 10px;
+        margin: 0;
+        font-size: 14px;
+
+    }
+}
+.navbar-toggler{
+    border: none !important;
+}
+@media (min-width:0px) and (max-width:1600px) {
+//    .logo{
+//     // width: 00px !important;
+//    }
+}
+
+.neww{
+    width: 10% !important;
+}

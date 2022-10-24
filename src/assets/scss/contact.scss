@@ -1,0 +1,55 @@
+section{
+    font-family: $font;
+    h1{
+        font-weight: 600;
+    }
+}
+input{
+    border: none;
+    border-bottom: 1.5px solid $bordercol;
+    width: 100%;
+    padding: 0;
+    &:focus{
+        outline: none !important;
+    }
+    &::placeholder{
+        color: $fillcol;
+        margin-top: -10px;
+    }
+}
+.form-select{
+    border: none;
+    border-bottom: 1.5px solid $bordercol;
+    border-radius: 0px;
+    color: $fillcol;
+    &:focus{
+        box-shadow: none !important;
+        border-color: black;
+    }
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: $btncolor;
+    color: white;
+    border: none;
+    &:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid $bordercol;
+    }
+}
+.email{
+    color: $btncolor;
+}
+.number{
+    color: $btncolor;
+}
+@media (min-width:0px) and (max-width:992px) {
+    .paddingtp{
+        padding-top: 3rem;
+    }
+    .text-center{
+        text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+.maintext{
+    font-family: $font;
+    h1{
+        font-weight: 900;
+        font-size: 2rem;
+    }
+}
+// .slick-list{
+//     padding: 0 300px!important;
+// }
+img{
+    width: 100%;
+    height: auto;
+}
+@media (min-width:0px) and (max-width:992px) {
+    .slick-list{
+        padding: 0 0px!important;
+    }
+}

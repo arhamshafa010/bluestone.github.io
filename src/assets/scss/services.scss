@@ -1,0 +1,31 @@
+.card-title{
+    // padding-top: 250px;
+    color: black;
+    font-family: $font;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.maintext{
+    font-family: $font;
+    h1{
+        font-weight: 900;
+        font-size: 2rem;
+    }
+}
+.paddingbt{
+    padding-bottom: 2rem;
+}
+@media (min-width:0px) and (max-width:992px) {
+    .paddingbt{
+        padding-bottom: 1.5rem !important;
+    } 
+}
+@media (min-width:0px) and (max-width:544px){
+    .card-title{
+        // padding-top: 150px;
+        color: white;
+        font-family: $font;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+} 

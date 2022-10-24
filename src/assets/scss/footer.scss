@@ -1,0 +1,84 @@
+section{
+    background-color: $ftcol;
+    font-family: $font;
+    h1{
+        font-weight: 600;
+    }
+}
+.bd1{
+    border-bottom: 2px solid;
+    width: 50px;
+    color: $fillcol;
+    margin-bottom: 5px;
+}
+.bd2{
+    border-bottom: 2px solid;
+    width: 50px;
+    color: $fillcol;
+    margin-bottom: 5px;
+}
+.ftsize{
+    font-size: 8px;
+}
+.first{
+    h3{
+        font-weight: 600;
+    }
+    img{
+        width: 1.1rem;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+.second{
+    h3{
+        font-weight: 600;
+    }
+}
+.m1{
+    color: $fillcol;
+    font-size: 0.9rem;
+}
+.div1{
+    font-size: 12px;
+}
+.div1::after{
+    content: "";
+    border: 1px solid $fillcol;
+    margin-left: 10px;
+}
+.div2{
+   font-size: 12px;
+   margin-left: 10px;
+}
+.div2::after{
+    content: "";
+    border: 1px solid $fillcol;
+    margin-left: 10px;
+}
+.div3{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.border-top{
+    color: $fillcol !important;
+}
+.m2{
+    color: $fillcol;
+}
+.copy{
+    font-size: 12px;
+}
+.logos{
+    img{
+        width: 17px;
+        height: 20px;
+    }
+}
+.div4::after{
+    content: "";
+    border: 1px solid $fillcol;
+    margin-left: 10px;
+    font-family: $font;
+}

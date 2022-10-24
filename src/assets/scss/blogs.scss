@@ -1,0 +1,35 @@
+.container{
+    font-family: $font;
+    .text-center{
+        
+            h1{
+                font-weight: 600;
+            }
+        
+    }
+}
+
+.date{
+    
+    h1{
+        font-size: 1.5rem;
+        color: $btncolor;
+
+    }
+    div{
+        font-size: 1rem;
+        margin-top: -7px;
+        color: $btncolor;
+    }
+}
+button{
+    font-family: $font;
+    border: none;
+    background: transparent;
+    div{
+        color: #0856A2;
+    }
+    i{
+        color: #0856A2;
+    }
+}

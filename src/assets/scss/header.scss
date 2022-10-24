@@ -1,0 +1,43 @@
+section{
+    background-color: $color1;
+    font-family: $font;
+    font-weight: 100;
+    font-size: 11px;
+    .ind{
+        color: #FFFFFF;
+        &::after{
+            content: "";
+            // width: 5px;
+            // height: 5px;
+            border: 1px solid #9B9B9B;
+            margin-left: 0.5rem;
+        }
+    }
+    .eup{
+        color: #FFFFFF;
+        margin-left: 0.5rem;
+        &::after{
+            content: "";
+            // width: 5px;
+            // height: 5px;
+            border: 1px solid #9B9B9B;
+            margin-left: 0.5rem;
+        }
+    }
+    .us{
+        margin-left: 0.5rem;
+    }
+}
+
+@media (min-width:0px) and (max-width:576px) {
+    .one{
+        display: none !important;
+    }
+    .two{
+        display: none !important;
+    }
+    .py-2{
+        padding: 0 !important;
+    }
+    
+}
