@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-lg-6 text-light pt-5">
           <div>
-            <h1>BlueStone</h1>
+            <h1 class="centering">BlueStone</h1>
           </div>
-          <div class="d-flex">
+          <div class="d-flex divv">
             <div class="bd1"></div>
             <div class="ftsize px-2">Empower Your Brand</div>
             <div class="bd2"></div>
@@ -126,7 +126,7 @@
             </div>
           </div>
           <div class="col-lg-6 text-light logos">
-            <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end log">
               <div class="div4">
                 <img class="" src="@/assets/images/fb.png" alt="" />
               </div>

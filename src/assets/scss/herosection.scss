@@ -41,3 +41,11 @@ section{
         height: 477px;
     }
 }
+@media (min-width:0px) and (max-width:500px){
+    h1{
+        font-size: 1.4rem !important;
+    }
+    p{
+        font-size: 0.7rem !important;
+    }
+}

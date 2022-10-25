@@ -82,3 +82,15 @@ section{
     margin-left: 10px;
     font-family: $font;
 }
+@media (min-width:0px) and (max-width:500px){
+    .centering{
+        text-align: center !important;
+    }
+    .divv{
+        justify-content: center !important;
+    }
+    .log{
+        padding-top: 2rem !important;
+        justify-content: center !important;
+    }
+}

@@ -29,3 +29,17 @@
         font-size: x-large;
     }
 } 
+
+@media (min-width:0px) and (max-width:500px){
+    .maintext{
+        h1{
+            font-size: 1.4rem !important;
+        }
+        div{
+            font-size: 0.8rem !important;
+        }
+    }
+    .card-title{
+        font-size: 1rem !important;
+    }
+}
