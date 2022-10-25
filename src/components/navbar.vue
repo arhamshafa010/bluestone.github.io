@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <router-link class="w-50" to="/"
             ><img
-              class="logo w-50 img-fluid"
+              class="logo w-50 w-65 img-fluid"
               src="@/assets/images/logo.png"
               alt="logo"
           /></router-link>
